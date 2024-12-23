@@ -31,6 +31,7 @@ const playGame = (userChoice) =>{
 
 
     if(userChoice === compChoice){
+      //draw game condtion
       drawGame();
     } else {
       let userWin =true;
