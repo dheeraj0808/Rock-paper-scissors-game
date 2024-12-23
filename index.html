@@ -4,12 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rock paper game</title>
-    <style rel="style" href="style.css"></style>
+    <link rel="stylesheet" href="style.css">
 </head>
-<dir>
-    <button> Click Me</button>
-</dir>
 <body>
+<h1>Rock Paper Scissors</h1>
+
+    <div class="choices">
+        <div class="choice" id="Rock">
+            <img src="./images/rock.png">
+        </div>
+        <div class="choice" id="paper">
+            <img src="./images/paper.png">
+        </div>
+        <div class="choice" id="ciessor">
+            <img src="./images/siessor.png">
+        </div>
+    </div>
+    <div class="msg-container">
+        <p id="msg">Play your move</p>
+    </div>
+    <div class="score-board">
+        <div class="score">
+            <p id="user-score">0</p>
+            <p>User</p>
+        </div>
+        <div class="Computer">
+            <p id="computer-score">0</p>
+            <p>Comp</p>
+        </div>
+    </div>
+    <div class="right-align">
+        <a href="contact.html"><button id="btn"> Share and earn</button></a>
+    </div>
+   
     <script src="script.js"></script>
 </body>
 </html>
